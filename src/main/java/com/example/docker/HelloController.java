@@ -10,6 +10,11 @@ public class HelloController {
     public String hello() {
         return "hello docker version 2";
     }
+
+    @GetMapping("/frontend")
+    public String frontend() {
+        return "Frontend details page";
+    }
 }
 
 
