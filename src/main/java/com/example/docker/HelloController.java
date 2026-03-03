@@ -13,7 +13,8 @@ public class HelloController {
 
   @GetMapping("/frontend")
    public String frontend() {
-       return "Frontend details pages update";
+       return "Frontend details pages update1";
+       //return "Frontend details pages update";
    }
 }
 
